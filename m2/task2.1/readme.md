@@ -17,4 +17,4 @@ Part 1. HYPERVISORS
 
 Part 2. WORK WITH VIRTUALBOX
    ![Image alt](https://github.com/00Kuntsov00/DevOps_online_Kyiv_2021Q3
-/raw/develop/screenshots/1.png)
+/raw/develop/m2/task2.1/screenshots/1.png)
