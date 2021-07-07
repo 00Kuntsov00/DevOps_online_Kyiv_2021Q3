@@ -16,4 +16,18 @@ Part 1. HYPERVISORS
   * With System Center Virtual Machine Manager in Hyper-V, it is possible not only to implement simple server virtualization projects, but also to create private clouds.
 
 Part 2. WORK WITH VIRTUALBOX
+
    ![Image alt](https://github.com/00Kuntsov00/DevOps_online_Kyiv_2021Q3/raw/develop/m2/task2.1/screenshots/1.png)
+   
+   ![Image alt](https://github.com/00Kuntsov00/DevOps_online_Kyiv_2021Q3/raw/develop/m2/task2.1/screenshots/2.png)
+   
+   ![Image alt](https://github.com/00Kuntsov00/DevOps_online_Kyiv_2021Q3/raw/develop/m2/task2.1/screenshots/3.png)
+
+   ![Image alt](https://github.com/00Kuntsov00/DevOps_online_Kyiv_2021Q3/raw/develop/m2/task2.1/screenshots/4.png)
+
+   ![Image alt](https://github.com/00Kuntsov00/DevOps_online_Kyiv_2021Q3/raw/develop/m2/task2.1/screenshots/5.png)
+
+   ![Image alt](https://github.com/00Kuntsov00/DevOps_online_Kyiv_2021Q3/raw/develop/m2/task2.1/screenshots/6.png)
+
+
+
