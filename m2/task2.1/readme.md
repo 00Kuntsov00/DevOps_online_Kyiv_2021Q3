@@ -32,9 +32,9 @@ Part 2. WORK WITH VIRTUALBOX
    
 Part 3. WORK WITH VAGRANT
 
-    tasks 1 - 6
+   tasks 1 - 6
    ![Image alt](https://github.com/00Kuntsov00/DevOps_online_Kyiv_2021Q3/raw/develop/m2/task2.1/screenshots/2.1.png)
-    task 7
+   task 7
    ![Image alt](https://github.com/00Kuntsov00/DevOps_online_Kyiv_2021Q3/raw/develop/m2/task2.1/screenshots/2.2.png)
    
    
