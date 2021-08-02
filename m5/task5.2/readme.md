@@ -71,9 +71,17 @@ Passwd –u $username
 Passwd –df $username
 
 11)Display the extended format of information about the directory, tell about the information columns displayed on the terminal.
-
+Команда ls выведет всю информацию об указанном каталоге.
 
 12)What access rights exist and for whom (i. e., describe the main roles)? Briefly describe the acronym for access rights.
+Выделяют три категории пользователей, которым могут предоставляться права на файл:
+
+Сам владелец (u – user).
+
+Группа (g – group).
+
+Все остальные (o – other).
+
 Rwx – чтение, запись, выполнение
 
 13)What is the sequence of defining the relationship between the file and the user?
@@ -83,10 +91,12 @@ Rwx – чтение, запись, выполнение
 Chown [имя владельца ] [путь к файлу\дирректории]
 
 15)What is an example of octal representation of access rights? Describe the umask command.
-
+umask - это пользовательская маска (user mask), которая используется для определения конечных прав доступа.
+umask "отбирает" необходимые права в нужных разрядах: 7-ка полностью все, 2-ка права на запись, 0 оставляет по умолчанию.
 
 16)Give definitions of sticky bits and mechanism of identifier substitution. Give an example of files and directories with these attributes.
-
+Sticky bit – дополнительный бит используется для директорий( в основном ), защита файлов. Пользователь не может удалить файлы которые меу не принадлежат.
+Пример папка /tmp
 
 17)What file attributes should be present in the command script?
-
+Ша-бэнг (#!) в начале сценария сообщает системе, что этот файл представляет собой набор команд, которые нужно передать интерпретатору команд.
