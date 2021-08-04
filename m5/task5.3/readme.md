@@ -11,10 +11,10 @@
 procfs — специальная файловая система, используемая в UNIX-подобных операционных системах. Позволяет получить доступ к информации из ядра о системных процессах.
 
 ## 4. Print information about the processor (its type, supported technologies, etc.).
-![Image alt](https://github.com/00Kuntsov00/DevOps_online_Kyiv_2021Q3/raw/develop/m5/task5.3/screenshots/5.3_1.png
+![Image alt](https://github.com/00Kuntsov00/DevOps_online_Kyiv_2021Q3/raw/develop/m5/task5.3/screenshots/5.3_1.png)
 
 ## 5. Use the ps command to get information about the process. The information should be as follows: the owner of the process, the arguments with which the process was launched for execution, the group owner of this process, etc. 
-
+![Image alt](https://github.com/00Kuntsov00/DevOps_online_Kyiv_2021Q3/raw/develop/m5/task5.3/screenshots/5.3_2.png)
 
 ## 6. How to define kernel processes and user processes?
 
@@ -23,16 +23,16 @@ procfs — специальная файловая система, исполь�
 
 
 ## 8. Display only the processes of a specific user. 
-
+![Image alt](https://github.com/00Kuntsov00/DevOps_online_Kyiv_2021Q3/raw/develop/m5/task5.3/screenshots/5.3_7.png)
 
 ## 9. What utilities can be used to analyze existing running tasks (by analyzing the help for the ps command)?
 
 
 ## 10. What information does top command display?
-
+Команда top позволяет вывести в виде таблицы перечень запущенных процессов и оценить, какой объем ресурсов они потребляют
 
 ## 11. Display the processes of the specific user using the top command.
-
+![Image alt](https://github.com/00Kuntsov00/DevOps_online_Kyiv_2021Q3/raw/develop/m5/task5.3/screenshots/5.3_4.png)
 
 ## 12. What interactive commands can be used to control the top command? Give a couple of examples.
 
@@ -41,16 +41,20 @@ procfs — специальная файловая система, исполь�
 
 
 ## 14. Concept of priority, what commands are used to set priority?
-
+![Image alt](https://github.com/00Kuntsov00/DevOps_online_Kyiv_2021Q3/raw/develop/m5/task5.3/screenshots/5.3_6.png)
 
 ## 15. Can I change the priority of a process using the top command? If so, how?
-
+Утилита nice — предназначенная для запуска процессов с изменённым приоритетом.
 
 ## 16. Examine the kill command. How to send with the kill commandprocess control signal? Give an example of commonly used signals.
-
+kill [OPTIONS] [PID]
+![Image alt](https://github.com/00Kuntsov00/DevOps_online_Kyiv_2021Q3/raw/develop/m5/task5.3/screenshots/5.3_8.png)
 
 ## 17. Commands jobs, fg, bg, nohup. What are they for? Use the sleep, yes command to demonstrate the process control mechanism with fg, bg.
-
+Команда jobs выводит список процессов, которые выполняются в фоновом режиме,
+fg <номер_задания> переводит процесс на передний план,
+bg <номер_задания> — переводит процесс на задний план.
+Nohup команда для запуска процесса даже после выхода из системы.
 
 # Part2
 ## 1. Check the implementability of the most frequently used OPENSSH commands in the MS Windows operating system. (Description of the expected result of the commands + screenshots: command – result should be presented)
