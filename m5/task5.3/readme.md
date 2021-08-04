@@ -11,7 +11,7 @@
 procfs — специальная файловая система, используемая в UNIX-подобных операционных системах. Позволяет получить доступ к информации из ядра о системных процессах.
 
 ## 4. Print information about the processor (its type, supported technologies, etc.).
-
+![Image alt](https://github.com/00Kuntsov00/DevOps_online_Kyiv_2021Q3/raw/develop/m5/task5.3/screenshots/5.3_1.png
 
 ## 5. Use the ps command to get information about the process. The information should be as follows: the owner of the process, the arguments with which the process was launched for execution, the group owner of this process, etc. 
 
